@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: lightblue;
+}
+
+#container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 30px;
+    max-width: 300px;
+    text-align: center;
+}
+
+h3 {
+    margin-top: 0;
+}
+
+input {
+    border: 2px solid lightblue;
+    height: 30px;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.btn {
+    color: white;
+    background: lightblue;
+    width: 50%;
+    height: 25px;
+    border: none;
+}
+
+.display {
+    font-size: 25px;
+    color: lightblue;
+    max-width: 90%;
+    height: 200px;
+}
